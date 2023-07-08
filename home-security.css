@@ -1,0 +1,329 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.header-top {
+    box-sizing: border-box;
+    background-color: #040e26;
+}
+
+.header-top li a i {
+    vertical-align: middle;
+    color: #fc5e28;
+}
+
+.header-top a {
+    color: #FFFFFF;
+    font-size:14px; 
+}
+
+.header-top .btn {
+    color: #FFFFFF;
+    border: 1px solid #fc5e28;
+    border-radius: 1px;
+}
+
+.header-top .btn:hover {
+    color: #FFFFFF;
+    background-color: #fc5e28;
+}
+
+.header-main {
+    background-color: #FFFFFF;
+}
+
+.header-main ul li a, .header-main .dropdown-item  {
+    font-size: 16px;
+    font-weight: 400;
+    color:#040e26;
+}
+
+.header-main .nav-link:hover, .header-main .navlink:hover {
+    color: #fc5e28;
+}
+
+.header-main .dropdown-item {
+    font-size: 15px;
+    padding: 10px 30px 10px;
+}
+
+.header-main .dropdown-item:hover {
+    color:#fc5e28;
+    background-color: transparent !important;
+}
+
+.header-main .dropdown-menu {
+    outline: none;
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu,
+.dropdown-menu.show {
+  display: block;
+}
+
+.header-main .navlink, .header-main .current {
+    color: #fc5e28;
+    background-color: transparent;
+}
+
+@media (max-width:991.98px) {
+    .header-main ul {
+        margin-top: 10px;
+    }
+}
+
+/*page-header*/
+.page-header {
+    background-image: url('Images/home-security-cover.jpg'); 
+    position: relative; 
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.page-header .title-area {
+    min-height: calc(75vh - 118px);
+}
+
+.page-header h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    color:#FFFFFF;
+    z-index: 2;
+}
+
+.page-header p {
+    font-size: 16px;
+    font-weight: 400;  
+    line-height: 1;
+    color: #fafafa;
+    z-index: 2;
+}
+
+@media (min-width:991.98px) {
+    .page-header h2 {
+        font-size: 50px;
+        z-index: 2; 
+    }   
+    .page-header p  {
+        font-size: 18px;
+        z-index: 2;
+    }
+}
+
+.directory {
+    background-color: #040e26;
+}
+
+.slash {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.directory a, .directory span {
+    color:#fc5e28;
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    .directory a, .directory span  {
+      font-size: 14px;
+    }
+}
+  
+/*home security content & quick form*/
+.content {
+    box-sizing: border-box;
+}
+
+.list-group {
+  border: none;
+  border-radius: 0;
+}
+
+.content p {
+    line-height: 2;
+}
+
+.solution-insight .quick-form {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #fc5e28;
+}
+
+.solution-insight .quick-form .btn-block {
+    width: 100%;
+    color:#FFFFFF;
+    background-color: #fc5e28;
+}
+
+.solution-insight .quick-form .btn-block:hover {
+    width: 100%;
+    color:#fc5e28;
+    background-color: transparent;
+}
+
+.solution-insight .custom-border {
+    box-sizing: border-box;
+    border: 1px solid #fc5e28;
+}
+
+.solution-insight .quick-form input, .solution-insight .quick-form #message, .solution-insight .quick-form .btn {
+    border: 1px solid #fc5e28;
+}
+
+.solution-insight .quick-form .form-check-label {
+    font-size: smaller;
+}
+
+.solution-insight h2 .accordion-button {
+    font-size: 20px !important; 
+    color:#040e26;
+}
+
+.solution-insight h2 .accordion-button:focus {
+    color:#040e26;
+}
+
+.solution-insight p {
+    color:#040e26 !important;
+}
+
+.solution-insight .form-control {
+    height: 35px;
+}
+
+.solution-insight .accordion .list-group-item:hover {
+    color: #fc5e28;
+}
+
+.solution-insight .suggested-links a {
+    color: #040e26;
+}
+
+.solution-insight .suggested-links .table {
+    border: 1px solid #fc5e28;
+}
+
+.solution-insight .suggested-links a:hover {
+    color: #fc5e28;
+}
+
+/*banner*/
+.flag {
+    background-image: url('Images/home-security-banner.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    z-index: 1;
+    background-attachment: fixed;
+    margin-top: 75px;
+}
+
+.flag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.flag h4 {
+    color:#fc5e28;
+    font-weight: 600;
+    z-index: 2;
+    position: relative;
+}
+
+.flag h2 {
+    color:#fafafa;
+    font-weight: 700;
+    font-size: 35px; 
+    z-index: 2;
+    position: relative;
+}
+
+.flag .btn {
+    border: 1px solid #fc5e28;
+    font-size: 16px;
+    color: #fc5e28;
+    position: relative;
+    z-index: 2;
+}
+
+.flag .btn:hover {
+    border: 1px solid #fc5e28;
+    background-color: #fc5e28;
+    color:#FFFFFF;
+}
+
+/*footer*/
+footer {
+    background-color: #040e26;
+}
+
+footer .logo {
+    margin-top: 75px; 
+    margin-bottom: 25px;
+}
+
+footer .quick-links, footer .company, footer .subscribe {
+    margin-top: 75px; 
+    margin-bottom: 75px;
+}
+
+footer h5, footer a, footer p, footer span {
+    color: #FFFFFF;
+}
+
+footer .custom-border-top {
+    border-top: 1px solid #fc5e28;
+}
+
+footer .custom-btn-border {
+    border: 1px solid #fc5e28;
+    background-color: #fc5e28;
+    color:#FFFFFF;
+}
+
+footer .custom-btn-border:hover {
+    border: 1px solid #fc5e28;
+    background-color: transparent;
+    color:#FFFFFF;
+}
+
+footer ul li .fa-brands {
+    color: #fc5e28;
+}
+
+footer ul li .fa-brands:hover {
+    color:#FFFFFF;
+}
+
+footer .list-unstyled li .text-decoration-none:hover {
+    color: #fc5e28;
+}
+
+
+
+
+

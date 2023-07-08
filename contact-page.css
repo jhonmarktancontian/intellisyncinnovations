@@ -1,0 +1,257 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.header-top {
+    box-sizing: border-box;
+    background-color: #040e26;
+}
+
+.header-top li a i {
+    vertical-align: middle;
+    color: #fc5e28;
+}
+
+.header-top a {
+    color: #FFFFFF;
+    font-size:14px; 
+}
+
+.header-top .btn {
+    color: #FFFFFF;
+    border: 1px solid #fc5e28;
+    border-radius: 1px;
+}
+
+.header-top .btn:hover {
+    color: #FFFFFF;
+    background-color: #fc5e28;
+}
+
+.header-main {
+    background-color: #FFFFFF;
+}
+
+.header-main ul li a, .header-main .dropdown-item  {
+    font-size: 16px;
+    font-weight: 400;
+    color:#040e26;
+}
+
+.header-main .nav-link:hover, .header-main .navlink:hover {
+    color: #fc5e28;
+}
+
+.header-main .dropdown-item {
+    font-size: 15px;
+    padding: 10px 30px 10px;
+}
+
+.header-main .dropdown-item:hover {
+    color:#fc5e28;
+    background-color: transparent !important;
+}
+
+.header-main .dropdown-menu {
+    outline: none;
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu,
+.dropdown-menu.show {
+  display: block;
+}
+
+.header-main .nav-item .current {
+    color: #fc5e28;
+    background-color: transparent;
+}
+
+@media (max-width:991.98px) {
+    .header-main ul {
+        margin-top: 10px;
+    }
+}
+
+/*.contact-page-header*/
+.contact-page-header {
+    background-image: url('Images/contact-page-cover.jpg'); 
+    position: relative; 
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+.contact-page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.contact-page-header .title-area {
+    min-height: calc(50vh - 118px);
+}
+
+.contact-page-header h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1;
+    color:#FFFFFF;
+    z-index: 2;
+}
+
+.contact-page-header p {
+    font-size: 16px;
+    font-weight: 400;  
+    line-height: 1;
+    color: #fafafa;
+    z-index: 2;
+}
+
+/*contact-page inquiry-form*/
+.inquiry-form .border-left {
+    border-left: 5px solid #fc5e28;
+}
+
+.inquiry-form {
+    margin: 75px auto 75px;
+}
+
+.inquiry-form .left-section h4 {
+    color: #fc5e28;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.inquiry-form .left-section h2 {
+    color: #040e26;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.inquiry-form .left-section span {
+    font-size: 20px;
+    margin: 15px auto 15px;
+}
+
+.inquiry-form .left-section i {
+    width: 45px;
+    height: 45px;
+    background-color:#fc5e28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inquiry-form .left-section .contact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inquiry-form p, 
+.inquiry-form label, 
+.inquiry-form .btn {
+    color: #040e26;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inquiry-form .right-section {
+    background-image: url('Images/form-bg.jpg');
+    position: relative; 
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    z-index: 1;
+}
+
+.inquiry-form .right-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 14, 38, 0.8);
+    z-index: -1;
+}
+
+.right-section label {
+    color:#FFFFFF;
+}
+
+.right-section .form-control { 
+    color:#040e26;
+}
+
+.right-section .form-control:focus {
+    color:#040e26;
+    border: 1px solid #fc5e28;
+}
+
+.inquiry-form .right-section .btn-block {
+    width: 100%;
+    color:#FFFFFF;
+    background-color: #fc5e28;
+}
+
+.right-section .btn:hover {
+    border: 1px solid #fc5e28;
+    background-color: transparent;
+    color:#fc5e28;
+}
+
+/*footer*/
+footer {
+    background-color: #040e26;
+}
+
+footer .logo {
+    margin-top: 75px; 
+    margin-bottom: 25px;
+}
+
+footer .quick-links, footer .company, footer .subscribe {
+    margin-top: 75px; 
+    margin-bottom: 75px;
+}
+
+footer h5, footer a, footer p, footer span {
+    color: #FFFFFF;
+}
+
+footer .custom-border-top {
+    border-top: 1px solid #fc5e28;
+}
+
+footer .custom-btn-border {
+    border: 1px solid #fc5e28;
+    background-color: #fc5e28;
+    color:#FFFFFF;
+}
+
+footer .custom-btn-border:hover {
+    border: 1px solid #fc5e28;
+    background-color: transparent;
+    color:#FFFFFF;
+}
+
+footer ul li .fa-brands {
+    color: #fc5e28;
+}
+
+footer ul li .fa-brands:hover {
+    color:#FFFFFF;
+}
+
+footer .list-unstyled li .text-decoration-none:hover {
+    color: #fc5e28;
+}
