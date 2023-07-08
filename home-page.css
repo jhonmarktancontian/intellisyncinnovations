@@ -72,8 +72,9 @@ body {
     position: relative;
     background-image: url('Images/homepage-cover.jpg');
     background-position: center center;
-    background-size: 115%;
+    background-size: cover;
     background-attachment: fixed;  
+    background-repeat: no-repeat;
 }
 
 #home-section::before {
@@ -487,6 +488,7 @@ body {
     background-size: cover; 
     background-attachment: fixed; 
     z-index: 1;
+    background-repeat: no-repeat;
 }
 
 .inquiry-form .right-section::before {
